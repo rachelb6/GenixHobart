@@ -71,6 +71,9 @@ h1:hover {
     background-color: #81a684;
     position: fixed;
     bottom: 10px;
+}
 
+.module {
+    cursor: url(icons8-cursor-100.png), auto;
 }
 /* color palette #81A684 #57886C #D0E3CA #7EBDC2 #466060 */
