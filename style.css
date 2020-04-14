@@ -1,0 +1,76 @@
+body {
+    background-color: #466060;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Righteous', cursive;
+    font-size: 1000%;
+    color: #D0E3CA;
+}
+
+h2 {
+    font-family: monospace;
+    color: #D0E3CA;
+}
+
+h3 {
+    font-family: monospace;
+    color: #D0E3CA;
+    background-color: #7EBDC2;
+   
+}
+
+h1:hover {
+    font-size: 1000%;
+    background: url(mountwellington.jpg);
+    background-size: auto;
+    background-position: bottom;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+#group_container {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    width: 100%;
+    grid-gap: 5%;
+    margin: auto;
+}
+
+#group_container2 {
+    display: grid;
+    width: 100%;
+    grid-gap: 5%;
+    margin: auto;
+}
+
+#group_container > div{
+    background-color: #81a684;
+    text-align: center;
+    color: darkcyan;
+    font-family: monospace;
+}
+
+
+#group_container2 > div{
+    background-color: #81a684;
+    text-align: center;
+    color: darkcyan;
+    font-family: monospace;
+}
+
+:any-link {
+    text-decoration: none;
+    color: #D0E3CA;
+}
+
+.socialmedia {
+    height: 50px;
+    width: 100%;
+    background-color: #81a684;
+    position: fixed;
+    bottom: 10px;
+
+}
+/* color palette #81A684 #57886C #D0E3CA #7EBDC2 #466060 */
