@@ -1,5 +1,6 @@
 body {
     background-color: #466060;
+    background-size: 100% 100% 100%;
 }
 
 h1 {
@@ -23,41 +24,28 @@ h3 {
 
 h1:hover {
     font-size: 1000%;
-    background: url(mountwellington.jpg);
+    /* background: url(mountwellington.jpg); */
+    background-color: #EFB0A1;
     background-size: auto;
     background-position: bottom;
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
+    text-shadow: 4px 4px #8A716A;
 }
 
 #group_container {
     display: grid;
-    grid-template-columns: 30% 30% 30%;
     width: 100%;
     grid-gap: 5%;
     margin: auto;
 }
 
-#group_container2 {
-    display: grid;
-    width: 100%;
-    grid-gap: 5%;
-    margin: auto;
-}
-
-#group_container > div{
+#group_container > a{
     background-color: #81a684;
     text-align: center;
     color: darkcyan;
     font-family: monospace;
-}
-
-
-#group_container2 > div{
-    background-color: #81a684;
-    text-align: center;
-    color: darkcyan;
-    font-family: monospace;
+    height: 100%;
 }
 
 :any-link {
@@ -77,3 +65,59 @@ h1:hover {
     cursor: url(icons8-cursor-100.png), auto;
 }
 /* color palette #81A684 #57886C #D0E3CA #7EBDC2 #466060 */
+
+#groupcontainer {
+   display: grid;
+   grid-template-columns: 30% 30% 30%;
+   margin-left: 100px;
+   margin-right: 100px;
+   grid-gap: 10%;
+}
+
+#ctenanthe {
+    width: 200px;  
+}
+
+#ctenanthe:hover {
+    background-color: blueviolet;
+    background-size: auto;
+}
+
+#fiscus {
+    width: 200px;
+}
+
+#unknown {
+    width: 250px;
+}
+
+#jadeplant {
+    width: 200px;
+}
+
+#maidenhairfern {
+    width: 200px;
+}
+
+#monstera {
+    width: 200px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    /* background-color: #f9f9f9; */
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    /* padding: 12px 16px; */
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
