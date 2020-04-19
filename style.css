@@ -119,12 +119,6 @@ p {
     width: 200px;
 }
 
-.dropdown {
-    position:;
-    display: inline-block;
-    
-}
-
 .dropdown-content {
     display: none;
     position: absolute;
