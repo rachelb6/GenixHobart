@@ -34,12 +34,6 @@ h1:hover {
     text-shadow: 4px 4px #8A716A;
 }
 
-p {
-    font-family: monospace;
-    font-size: 24px;
-    font-display: block;
-}
-
 #campcontent-container {
     text-align: center;
 }
@@ -118,6 +112,16 @@ p {
 
 #monstera {
     width: 200px;
+}
+#plantintro-container  {
+    text-align: center;
+}
+
+#plantintro {
+    display: block;
+    background-color: rgb(158, 185, 185);
+    width: 80%;
+
 }
 
 #page-selector {
