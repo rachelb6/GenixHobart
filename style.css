@@ -1,6 +1,7 @@
 body {
     background-color: #466060;
     background-size: 100% 100% 100%;
+    margin: 0;
 }
 
 h1 {
@@ -119,34 +120,56 @@ p {
     width: 200px;
 }
 
-.dropdown-content {
-    display: none;
-    position: absolute;
-    min-width: 160px;
-    z-index: 1;
-    position: absolute;
-    width: 100%;
-    left: 0px;
-}
-
-.dropdown:hover .dropdown-content {
-    display: block;
-    float: left;
-}
-
-#menu {
+#page-selector {
     font-family: monospace;
-    font-size: 25px;
-    position: absolute;
+    color: white;
+    text-shadow:
+        -1px -1px 0 #000,  
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+         1px 1px 0 #000;
+    font-size: 15px;
     width: 100%;
-    left: 0px;
-    text-align: center;
-    top: 370px;
     background-color:#8A716A;
-    color: #D0E3CA;
-    height: 55px;
-    padding: 10px;
-    border: 0px 0px 10px 0px solid #466060;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+
+#about-us {
+    position: absolute;
+    background-color: #EFB0A1;
+    top: 500px;
+    width: 100%;
+    border: 0;
+    padding: 0;
+    height: 200px;
+}
+
+#profiles {
+    justify-content: space-around;
+    text-align: center;
+    display: block;
+    margin: auto;
+    margin-top: 55px ;
+
+}
+
+#profiles > * {
+    display: inline-block;
+}
+
+#rachel:hover {
+        background-color: chartreuse;
+}
+
+#jack {
+
+}
+
+#angelica {
 
 }
 
