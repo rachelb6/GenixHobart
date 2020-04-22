@@ -118,10 +118,10 @@ h1:hover {
 }
 
 #plantintro {
-    display: block;
+    display: inline-block;
     background-color: rgb(158, 185, 185);
     width: 80%;
-
+    font-family: monospace;
 }
 
 #page-selector {
