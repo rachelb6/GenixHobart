@@ -119,14 +119,19 @@ h1:hover {
     width: 200px;
 }
 #plantintro-container  {
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
 }
 
 #plantintro {
-    display: inline-block;
     background-color: rgb(158, 185, 185);
     width: 80%;
     font-family: monospace;
+    text-align: center;
+    height: 25vh;
+
 }
 
 #page-selector {
@@ -157,41 +162,51 @@ h1:hover {
     height: 200px;
 }
 
-#profiles {
-    justify-content: space-around;
+#about-us-content {
+    justify-content: space-evenly;
     text-align: center;
     display: block;
     margin: auto;
     margin-top: 55px ;
-
+    
 }
 
-#profiles > * {
+#wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 50vh;
+}
+
+#intro {
+    width: 80%;
+    background-position: center;
+    height: 200px;
+    background-color: wheat;
+    flex: center;
+}
+
+#about-us-content > * {
     display: inline-block;
-}
-
-#rachel:hover {
-        background-color: chartreuse;
-}
-
-#jack {
-
-}
-
-#angelica {
-
+    justify-content: space-evenly;
 }
 
 table {
-     width: 100%;
+     width: 80%;
      position: relative;
+     min-height: 25vh;
+     margin-top: 10vh;
+}
+
+#table-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
 }
 
 table, th, td {
-    margin-top: 50%;
-    margin-left: 25%;
-    width: 50%;
-    margin-right: 25%;
     background-color: rgba(240, 241, 232, 0.911);
     border: 1px solid grey;
 }
