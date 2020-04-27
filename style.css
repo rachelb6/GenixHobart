@@ -347,18 +347,18 @@ svg {
     text-align: center;
     font-family: 'Righteous', cursive;
     font-size: 1000%;
-    color: #de8ea2;
-    text-shadow: 3px 3px 	#a17083 ;
+    color: #74a4d4;
+    text-shadow: 3px 3px #919cb7;
 }
 
 #ecoliving:hover {
     font-size: 1000%;
-    background-color: #74a4d4 ;
+    background-color: #de8ea2 ;
     background-size: auto;
     background-position: bottom;
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
-    text-shadow: 4px 4px #919cb7;
+    text-shadow: 4px 4px #a17083;
 }
 
 #group_container_eco {
