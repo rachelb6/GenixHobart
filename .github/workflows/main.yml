@@ -1,0 +1,18 @@
+name: CI
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Trigger remote dispatch event for yobur playbook.
+      uses: peter-evans/repository-dispatch@v1
+      with:
+        token: ${{ secrets.YOBUR_REPO_ACCESS_TOKEN }}
+        repository: yo-bur/playbook
+        event-type: deploy-rachel-genix
