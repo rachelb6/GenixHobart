@@ -1,5 +1,5 @@
 body {
-    background-color: #466060;
+    background-image: url("ignasi_pattern_s.png");
     background-size: 100% 100% 100%;
     margin: 0;
 }
@@ -9,15 +9,16 @@ h1 {
     font-family: 'Righteous', cursive;
     font-size: 1000%;
     color: #D0E3CA;
+    text-shadow: 3px 3px #81a684 ;
 }
 
 h2 {
-    font-family: monospace;
+    font-family: 'Poppins', sans-serif;
     color: #D0E3CA;
 }
 
 h3 {
-    font-family: monospace;
+    font-family: 'Poppins', sans-serif;
     color: #D0E3CA;
     background-color: #7EBDC2;
    
@@ -26,12 +27,12 @@ h3 {
 h1:hover {
     font-size: 1000%;
     /* background: url(mountwellington.jpg); */
-    background-color: #EFB0A1;
+    background-color: #8A716A ;
     background-size: auto;
     background-position: bottom;
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
-    text-shadow: 4px 4px #8A716A;
+    text-shadow: 4px 4px #EFB0A1;
 }
 
 #campcontent-container {
@@ -55,7 +56,7 @@ h1:hover {
 #group_container > a {
     background-color: #81a684;
     text-align: center;
-    font-family: monospace;
+    font-family: 'Poppins', sans-serif;
     height: 100%;
     text-shadow:
         -1px -1px 0 #000,  
@@ -88,6 +89,7 @@ h1:hover {
    margin-left: 100px;
    margin-right: 100px;
    grid-gap: 10%;
+   margin-top: 100px;
 }
 
 #ctenanthe {
@@ -118,24 +120,29 @@ h1:hover {
 #monstera {
     width: 200px;
 }
-#plantintro-container  {
+#plantintro-container > * {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     width: 100%;
+    padding: 20px;
 }
 
-#plantintro {
+#plantintro  {
     background-color: rgb(158, 185, 185);
-    width: 80%;
-    font-family: monospace;
+    font-family: 'Poppins', sans-serif;
     text-align: center;
     height: 25vh;
-
+    align-items: center;
+    margin-right: 50px;
+    font-size: 20px;
+    width: 80%;
+    margin: auto;
 }
 
 #page-selector {
-    font-family: monospace;
+    font-family: 'Poppins', sans-serif;
     color: white;
     text-shadow:
         -1px -1px 0 #000,  
@@ -144,18 +151,18 @@ h1:hover {
          1px 1px 0 #000;
     font-size: 15px;
     width: 100%;
-    background-color:#8A716A;
+    background-color: #81A684;
     display: flex;
     justify-content: space-evenly;
     padding: 0;
     border: 0;
     margin: 0;
+    position: relative;
 }
 
 #about-us {
-    position: absolute;
-    background-color: #EFB0A1;
-    top: 500px;
+    position: relative;
+    background-color: #7EBDC2;
     width: 100%;
     border: 0;
     padding: 0;
@@ -163,12 +170,30 @@ h1:hover {
 }
 
 #about-us-content {
-    justify-content: space-evenly;
+    justify-content: space-between;
     text-align: center;
     display: block;
     margin: auto;
     margin-top: 55px ;
-    
+    position: relative;
+}
+
+#about-us-content > img {
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 50px;
+}
+
+#rachel:hover {
+    background-color: whitesmoke;
+}
+
+#jack:hover {
+    background-color: tomato;
+}
+
+#angelica:hover {
+    background-color: yellow;
 }
 
 #wrapper {
@@ -176,20 +201,28 @@ h1:hover {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    position: relative;
     min-height: 50vh;
 }
 
 #intro {
     width: 80%;
     background-position: center;
-    height: 200px;
-    background-color: wheat;
+    height: 300px;
+    background-color: #C9C19F;
     flex: center;
+    font-family:'Poppins', sans-serif ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
 }
 
 #about-us-content > * {
     display: inline-block;
     justify-content: space-evenly;
+    position: relative;
 }
 
 table {
@@ -197,6 +230,7 @@ table {
      position: relative;
      min-height: 25vh;
      margin-top: 10vh;
+     font-family: 'Poppins', sans-serif;
 }
 
 #table-container {
@@ -215,6 +249,9 @@ th {
    background-color: #81a684; 
 }
 
-td {
-    
+#holdingplant {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
 }
