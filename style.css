@@ -18,10 +18,10 @@ h1 {
     text-shadow: 3px 3px #81a684 ;
 }
 
-h2 {
+/* h2 {
     font-family: 'Poppins', sans-serif;
     color: #D0E3CA;
-}
+} */
 
 h3 {
     font-family: 'Poppins', sans-serif;
@@ -324,4 +324,98 @@ svg {
   color: white;
   font-size: 18px;
   font-weight: 100;
+}
+
+#botanical-growth {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-self: auto;
+}
+
+#plent {
+    width: 50%;
+    margin-top: 100px;
+    position: relative;
+}
+
+#plint {
+    width: 50%;
+}
+
+#ecoliving {
+    text-align: center;
+    font-family: 'Righteous', cursive;
+    font-size: 1000%;
+    color: #de8ea2;
+    text-shadow: 3px 3px 	#a17083 ;
+}
+
+#ecoliving:hover {
+    font-size: 1000%;
+    background-color: #74a4d4 ;
+    background-size: auto;
+    background-position: bottom;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    text-shadow: 4px 4px #919cb7;
+}
+
+#group_container_eco {
+    display: grid;
+    width: 100%;
+    grid-gap: 5%;
+    margin: auto;
+}
+
+#group_container_eco > a {
+    background-color: #f2d26c;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: #d0d2dc;
+    height: 100%;
+    text-shadow:
+        -1px -1px 0 #54526e,  
+        1px -1px 0 #54526e,
+        -1px 1px 0 #54526e,
+         1px 1px 0 #54526e;
+}
+
+#group_container_arts {
+    display: grid;
+    width: 100%;
+    grid-gap: 5%;
+    margin: auto;
+}
+
+#group_container_arts > a {
+    /* background-color: #A5402D ; */
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: #A50104;
+    height: 100%;
+    text-shadow:
+        -1px -1px 0 #000,  
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+         1px 1px 0 #000;
+    font-size: 25px;
+}
+
+#artsculture {
+    text-align: center;
+    font-family: 'Righteous', cursive;
+    font-size: 1000%;
+    color: #4C191B;
+    text-shadow: 3px 3px 	#6B0E06 ;
+}
+
+#artsculture:hover {
+    font-size: 1000%;
+    background-color: #4C191B;
+    background-size: auto;
+    background-position: bottom;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    text-shadow: 4px 4px #6B0E06 ;
 }
