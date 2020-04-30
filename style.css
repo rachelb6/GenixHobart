@@ -95,6 +95,11 @@ h1:hover {
     background-color: #81a684;
     position: fixed;
     bottom: 10px;
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 /* color palette #81A684 #57886C #D0E3CA #7EBDC2 #466060 */
@@ -107,6 +112,27 @@ h1:hover {
    grid-gap: 10%;
    margin-top: 100px;
 }
+
+#ctenanthe {
+    height: 20vh;
+}
+
+#fiscus {
+    height: 20vh;
+}
+
+#monstera {
+    height: 20vh;
+}
+
+#jadeplant {
+    height: 20vh;
+}
+
+#unknown { 
+    height: 20vh;
+}
+
 
 #plantintro-container > * {
     display: flex;
