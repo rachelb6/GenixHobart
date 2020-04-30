@@ -90,7 +90,7 @@ h1:hover {
 }
 
 .socialmedia {
-    height: 50px;
+    height: 80px;
     width: 100%;
     background-color: #81a684;
     position: fixed;
@@ -100,6 +100,22 @@ h1:hover {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    font-size: 8px;
+}
+
+.instagram {
+    
+}
+
+.centred {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
 }
 
 /* color palette #81A684 #57886C #D0E3CA #7EBDC2 #466060 */
@@ -259,10 +275,10 @@ h1:hover {
     justify-content: center;
     align-items: center;
     position: relative;
-    margin-top: 20%;
     font-family: 'Poppins', sans-serif;
     font-size: 20px;
     color: #919cb7;
+    margin: 20px;
 }
 
 .box {
@@ -271,6 +287,11 @@ h1:hover {
     height: 400px;
     margin: 100px auto;
     border: 3px solid transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
   }
   
 .top,
