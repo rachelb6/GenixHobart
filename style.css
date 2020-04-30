@@ -157,35 +157,65 @@ h1:hover {
     list-style: none;
 }
 
-#about-us-content {
-    justify-content: space-between;
+#about-us-content  {
     text-align: center;
-    display: block;
-    margin: auto;
-    margin-top: 55px ;
     position: relative;
 }
 
-#about-us-content > img {
+#rachel, #jack, #angelica-bio > img {
     margin-left: 40px;
     margin-right: 40px;
     margin-top: 50px;
 }
+
 #rachel, #jack, #angelica {
     height: 10vh;
+    margin-top: 200px;
 }
 
+#R {
+    display: none;
+}
 
-#rachel:hover {
+#J{
+    display: none;
+}
+
+#A {
+    display: none;
+}
+
+ #rachel-bio:hover #R {
     background-color: whitesmoke;
+    height: 300px;
+    width: 300px;
+    margin-top: 20px;
+    padding-top: 200px;
+    display: block;
+    justify-content: center;
+    align-items: center;
 }
 
-#jack:hover {
+#jack-bio:hover #J {
     background-color: tomato;
+    height: 300px;
+    width: 300px;
+    margin-top: 20px;
+    padding-top: 200px;
+    display: block;
+    justify-content: center;
+    align-items: center;
 }
 
-#angelica:hover {
+#angelica-bio:hover #A {
     background-color: yellow;
+    height: 300px;
+    width: 300px;
+    margin-top: 20px;
+    padding-top: 200px;
+    display: block;
+    justify-content: center;
+    align-items: center;
 }
 
 #wrapper {
