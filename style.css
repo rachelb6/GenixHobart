@@ -228,14 +228,17 @@ h1:hover {
 
 #R {
     display: none;
+    font-family: 'Comfortaa', cursive;
 }
 
 #J{
     display: none;
+    font-family: 'Comfortaa', cursive;
 }
 
 #A {
     display: none;
+    font-family: 'Comfortaa', cursive;
 }
 
  #rachel-bio:hover #R {
@@ -286,7 +289,7 @@ h1:hover {
     justify-content: center;
     align-items: center;
     position: relative;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Comfortaa', cursive;
     font-size: 20px;
     color: #919cb7;
     margin: 20px;
