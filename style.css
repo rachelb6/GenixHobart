@@ -293,10 +293,19 @@ h1:hover {
     position: relative;
     font-family: 'Comfortaa', cursive;
     font-size: 20px;
-    color: #919cb7;
+    color: #7c6baa;
     margin: 200px;
     height: 200px;
     text-align: center;
+    outline: black;
+    outline-style: solid;
+    outline-width: 5px;
+    outline-offset: -20px;
+    outline-color: #7c6baa;
+    padding: 30px;
+    border-style: solid;
+    border-width: 10px;
+    border-color: #7c6baa ;
 }
 
 #about-us-content > * {
