@@ -5,7 +5,7 @@ body {
 }
 
 #artsbody {
-    background-image: url("artsbackground.jpg");
+    background-image: url("/graphics/artsbackground.jpg");
     background-size: 20%;
     background-repeat: repeat;
 }
@@ -223,7 +223,7 @@ h1:hover {
 
 #rachel, #jack, #angelica {
     height: 10vh;
-    margin-top: 200px;
+    margin-top: 150px;
 }
 
 #R {
