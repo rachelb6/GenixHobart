@@ -545,3 +545,45 @@ svg {
     border-style: double;
     border-width: 10px;
 }
+
+#entertainment-body {
+    background-color: 	#f8dbea;
+    background-image: none;
+    width: 100%;
+}
+
+#band {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+#group_container3 {
+    display: grid;
+    width: 100%;
+    grid-gap: 5%;
+    margin: auto;
+}
+
+#group_container3 > a {
+    background-color: 	#ef6a7b;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    height: 100%;
+    text-shadow:
+        -1px -1px 0 #000,  
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+         1px 1px 0 #000;
+    color: #c592a7;
+}
+
+#entertainment-header {
+    text-align: center;
+    font-family: 'Righteous', cursive;
+    font-size: 1000%;
+    color: #9cbbfa;
+    text-shadow: 3px 3px #c592a7 ;
+}
