@@ -684,3 +684,44 @@ h4 {
     margin-top: 20px;
     margin-left: 20px;
 }
+
+#contact-us {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 500px;
+}
+
+#email {
+    background-color: cornflowerblue;
+    height: 50px;
+    width: 100%;
+}
+
+#instagram {
+    background-color: cornflowerblue;
+    height: 50px;
+    width: 100%;
+}
+
+#group_container_contact {
+    display: grid;
+    width: 100%;
+    grid-gap: 20px;
+    margin-top: 300px;
+}
+
+#group_container_contact > a {
+    background-color: #f2d26c;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: #d0d2dc;
+    height: 100%;
+    text-shadow:
+        -1px -1px 0 #54526e,  
+        1px -1px 0 #54526e,
+        -1px 1px 0 #54526e,
+         1px 1px 0 #54526e;
+}
