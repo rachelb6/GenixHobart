@@ -88,13 +88,13 @@ h1:hover {
 
 :any-link {
     text-decoration: none;
-    color: #D0E3CA;
+    color: rgb(240, 245, 238);
 }
 
 .socialmedia {
     height: 80px;
     width: 100%;
-    background-color: #81a684;
+    background-color: rgb(151, 139, 151);
     position: fixed;
     bottom: 10px;
     text-align: left;
@@ -119,8 +119,6 @@ h1:hover {
     padding: 0px;
     border: 0px;
 }
-
-/* color palette #81A684 #57886C #D0E3CA #7EBDC2 #466060 */
 
 #groupcontainer {
    display: grid;
@@ -192,13 +190,14 @@ h1:hover {
          1px 1px 0 #000;
     font-size: 20px;
     width: 100%;
-    background-color: #81A684;
+    background-color: rgb(151, 139, 151);
     display: flex;
     justify-content: space-evenly;
     padding: 0px;
     border: 0px;
     margin: 0px;
     position: relative;
+    color: blanchedalmond;
 }
 
 .nav-list {
@@ -213,6 +212,7 @@ h1:hover {
 #about-us-content  {
     text-align: center;
     position: relative;
+    margin-bottom: 200px;
 }
 
 #rachel, #jack, #angelica-bio > img {
@@ -223,7 +223,7 @@ h1:hover {
 
 #rachel, #jack, #angelica {
     height: 10vh;
-    margin-top: 150px;
+
 }
 
 #R {
@@ -283,29 +283,6 @@ h1:hover {
     justify-content: center;
     position: relative;
     min-height: 50vh;
-}
-
-#intro {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    font-family: 'Comfortaa', cursive;
-    font-size: 20px;
-    color: #7c6baa;
-    margin: 200px;
-    height: 200px;
-    text-align: center;
-    outline: black;
-    outline-style: solid;
-    outline-width: 5px;
-    outline-offset: -20px;
-    outline-color: #7c6baa;
-    padding: 50px;
-    border-style: solid;
-    border-width: 10px;
-    border-color: #7c6baa ;
 }
 
 #about-us-content > * {
@@ -622,4 +599,75 @@ svg {
     grid-column-end: 3;
     grid-row-start: 2;
     grid-row-end: 4;
+}
+
+.grid-container2 {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: auto auto ;
+}
+
+#part1 > img {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    width: 200%;
+    height: 728.47px;
+}
+
+#part2 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    width: 100%;
+    height: 728.47px;
+    font-family: 'Comfortaa', cursive;
+    line-height: 30px;
+    background-color: #77746e62;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h4 {
+    font-size: 70px;
+    font-family: 'Righteous', cursive;
+}
+
+
+#part3, #part3 > *  {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    height: 100px;
+    font-family: 'Comfortaa', cursive;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+
+#part4, #part4 > * {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    height: 100px;
+    font-family: 'Comfortaa', cursive;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+#part5, #part5 > img {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    height: 100px;
+    font-family: 'Comfortaa', cursive;
+    margin-top: 20px;
+    margin-left: 20px;
 }
