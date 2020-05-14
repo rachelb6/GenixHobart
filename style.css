@@ -518,6 +518,13 @@ svg {
     grid-row-end: 2;
     width: 100%;
     background-color: #E84855;
+    font-family:'Comfortaa', cursive;
+    display: flex;
+    color: rgb(229, 245, 229);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 25px;
 }
 
 #item3 {
@@ -529,6 +536,7 @@ svg {
     background-color: #ff7f4f ;
     font-family:'Comfortaa', cursive;
     display: flex;
+    color: rgb(229, 245, 229);
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -541,12 +549,13 @@ svg {
     grid-row-start: 3;
     grid-row-end: 4;
     width: 100%;
-    background-color: #fcca46 ;
+    background-color: #fcca46;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
+    padding: 20px 0px 20px 0px;
+    opacity: 0.;
 }
 
 #item5 {
@@ -562,6 +571,7 @@ svg {
     align-items: center;
     line-height: 25px;
     background-color: #177e89;
+    color: rgb(229, 245, 229);
 }
 
 .grid-container2 {
@@ -778,6 +788,37 @@ h4 {
 #item12-1 {
     background-color: darkkhaki;
     width: 100%;
+}
 
 
+#group_container_artists {
+    display: grid;
+    width: 100%;
+    grid-gap: 5%;
+    margin: auto;
+}
 
+#group_container_artists > a {
+    background-color: #0a0a0a;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    height: 100%;
+    text-shadow:
+        -1px -1px 0 #000,  
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+         1px 1px 0 #000;
+}
+
+#music {
+    color: #335289;
+    text-shadow: 3px 3px black ;
+}
+
+#moshing{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
