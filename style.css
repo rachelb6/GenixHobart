@@ -691,7 +691,6 @@ h4 {
 .grid-container3 {
     display: grid;
     grid-template-columns: 50% 50% ;
-
 }
 
 .grid-container4 {
@@ -703,7 +702,6 @@ h4 {
 #item1-1 > img {
     width: 100%;
 }
-
 
 #item2-1 > p {
     width: 100%;
@@ -720,7 +718,6 @@ h4 {
     line-height: 40px;
 }
 
-
 #item3-1 > p {
     width: 100%;
     background-color: cornsilk;
@@ -736,60 +733,50 @@ h4 {
     line-height: 40px;
 }
 
-
 #item4-1 > img {
     width: 100%;
     background-color: darkkhaki;
 }
-
 
 #item5-1 > img {
     width: 100%;
     background-color: darkkhaki;
 }
 
-
 #item6-1 > img {
     width: 100%;
     background-color: darkkhaki;
 }
-
 
 #item7-1 > img {
     width: 100%;
     background-color: darkkhaki;
 }
 
-
 #item8-1 > img {
     width: 100%;
     background-color: darkkhaki;
 }
-
 
 #item9-1 > img {
     width: 100%;
     background-color: darkkhaki;
 }
 
-
 #item10-1 {
     background-color: darkkhaki;
     width: 100%;
 }
-
 
 #item11-1 {
     background-color: darkkhaki;
     width: 100%;
 }
 
-
 #item12-1 {
     background-color: darkkhaki;
     width: 100%;
 }
-
 
 #group_container_artists {
     display: grid;
@@ -815,10 +802,80 @@ h4 {
     text-shadow: 3px 3px black ;
 }
 
-#moshing{
+#moshing {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     margin-top: 100px;
 }
+
+#grid_container_john {
+    grid-template-columns: 60% 40%;
+    grid-template-rows: auto;
+    display: grid;
+}
+
+#item1-2 > img {
+    width: 75%;
+    height: auto;
+    margin-left: 20px;
+    padding: 0px;
+}
+
+#john-main {
+    height: 100%;
+}
+
+#item2-2 > p {
+    width: 90%;
+    margin-top: 50px;
+    padding: 20px;
+    font-family: 'Comfortaa', cursive;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: right;
+    line-height: 40px;
+}
+
+#john-body {
+    width: 100%;
+    background-color: rgb(122, 163, 182);
+    height: 100%;
+    margin: 0%;
+    padding: 0px;
+    font-family: 'Comfortaa', cursive;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    line-height: 40px;
+}
+
+#item3-3 {
+    width: 95%;
+    padding: 20px;
+}
+
+#john-header {
+    color: rgb(179, 171, 150);
+    text-shadow: 3px 3px rgb(117, 102, 96);
+    font-size: 100px;
+}
+
+#john-background {
+    background-color: 	rgb(122, 163, 182);
+    background-image: none;
+    background-size: 100% 100% 100%;
+}
+
+#john2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
