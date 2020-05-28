@@ -909,3 +909,69 @@ h4 {
     align-items: center;
     justify-content: center;
 }
+
+#movies {
+    font-size: 50px;
+    font-family: 'Abril Fatface', cursive;
+    color: #DD4B1A;
+    text-shadow: 3px 3px #F56416;
+}
+
+#movie-container > * {
+    font-family: 'Comfortaa', cursive;
+}
+
+#centre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+#pop-culture {
+    font-size: 50px;
+    color: #E3B505;
+    text-shadow: 3px 3px #107E7D;
+}
+
+#movie {
+    background-image: none;
+    background-color: #E28413 ;
+}
+
+#pop {
+    background-image: none;
+    background-color: #EBEBD3;
+}
+
+#pop-body {
+    padding: 10px;
+    color: #DB3069;
+    text-shadow: 0.5px 0.5px #1446A0 ;
+    font-family: 'Comfortaa', cursive;
+}
+
+div.gallery {
+    margin: 5px;
+    float: left;
+    width: 180px;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .desc {
+    padding: 15px;
+    text-align: center;
+    color: #DB3069;
+    text-shadow: 0.5px 0.5px #1446A0 ;
+    font-family: 'Comfortaa', cursive;
+  }
+
